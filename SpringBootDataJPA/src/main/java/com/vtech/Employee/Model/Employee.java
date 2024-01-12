@@ -22,6 +22,12 @@ public class Employee {
 	private String name; 
 	private String city; 
 
+	public long getId() {
+		return id;
+	}
+	public void setId(long id) {
+		this.id = id;
+	}
 	public Employee() { 
 		super(); 
 	} 
